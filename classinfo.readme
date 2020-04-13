@@ -1,0 +1,59 @@
+---
+- name: Zach Feeser
+  email: rzfeeser@alta3
+  class title: Kubernetes Essentials
+  days: Monday through Friday
+  times: 
+    start time: 9:30 am (eastern)
+    end time: 5:30 pm
+    lunch: 1:00 pm (eastern)
+
+  github repo: https://github.com/rzfeeser/20200406kubernetes
+  digital manuals: https://lms.alta3.com/
+  meeting:
+    daily: https://zoom.us
+    id: 933-482-565
+  
+    
+
+ Thanks for training with
+           _ _        ____    _____                               _     
+     /\   | | |      |___ \  |  __ \                             | |    
+    /  \  | | |_ __ _  __) | | |__) |___  ___  ___  __ _ _ __ ___| |__  
+   / /\ \ | | __/ _` ||__ <  |  _  // _ \/ __|/ _ \/ _` | '__/ __| '_ \ 
+  / ____ \| | || (_| |___) | | | \ \  __/\__ \  __/ (_| | | | (__| | | |
+ /_/    \_\_|\__\__,_|____/  |_|  \_\___||___/\___|\__,_|_|  \___|_| |_|
+
+ Subscribe on YouTube: https://www.youtube.com/user/Alta3Research/
+ Poster PDF Cheatsheets Available @ https://alta3.com/posters/
+ 
+
+Questions
+---------
+- Swagger documentation for Kubernetes
+- Steven Wang email question
+- changes -- build new container vs update etcd 
+
+
+Outline for the Week
+--------------------
+Monday - Overview
+       - YAML Spec
+       - Labs: 01 through 04 (due for Tuesday)
+
+Tuesday X REST api spec.
+        - etcd demo
+        - /openapi/v2
+
+
+Wednesday - Challenge Labs
+          - etcd demo
+          - overscription params
+          - demo command liveliness
+          - 
+          
+Thursday - labs
+         - helm / helmcharts
+         - 
+
+Friday - How to deploy Kubernetes in your home lab
