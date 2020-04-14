@@ -4,15 +4,15 @@
   class title: Kubernetes Essentials
   days: Monday through Friday
   times: 
-    start time: 9:30 am (eastern)
-    end time: 5:30 pm
-    lunch: 1:00 pm (eastern)
+    start time: 10:30 am (eastern)
+    end time: 6:30 pm
+    lunch: 1:30 pm (eastern)
 
-  github repo: https://github.com/rzfeeser/20200406kubernetes
+  github repo: https://github.com/rzfeeser/20200413kubernetes
   digital manuals: https://lms.alta3.com/
   meeting:
     daily: https://zoom.us
-    id: 933-482-565
+    id: 462-340-950
   
     
 
@@ -30,30 +30,12 @@
 
 Questions
 ---------
-- Swagger documentation for Kubernetes
-- Steven Wang email question
-- changes -- build new container vs update etcd 
+
 
 
 Outline for the Week
 --------------------
-Monday - Overview
-       - YAML Spec
-       - Labs: 01 through 04 (due for Tuesday)
-
-Tuesday X REST api spec.
-        - etcd demo
-        - /openapi/v2
-
-
-Wednesday - Challenge Labs
-          - etcd demo
-          - overscription params
-          - demo command liveliness
-          - 
-          
-Thursday - labs
-         - helm / helmcharts
-         - 
-
-Friday - How to deploy Kubernetes in your home lab
+Monday:
+ - Complete Labs 01 - 07
+Tuesday:
+ - Complete Labs 08 - 
