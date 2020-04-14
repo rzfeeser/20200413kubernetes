@@ -1,0 +1,8 @@
+---
+- links: Kubernetes Essentials
+
+  - etcd:
+    https://etcd.io/
+  
+  - Kubernetes API overview:
+    https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md
