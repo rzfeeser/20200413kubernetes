@@ -6,3 +6,15 @@
   
   - Kubernetes API overview:
     https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md
+    
+  - YAML spec:
+    https://yaml.org/spec/1.2/spec.html
+    
+  - K8s Resource Types:
+    https://kubernetes.io/docs/reference/kubectl/overview/#resource-types
+    
+  - ReplicaSets:
+    https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
+    
+  - Affinity & Anti-Affinity:
+    https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity

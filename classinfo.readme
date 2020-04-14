@@ -30,12 +30,31 @@
 
 Questions
 ---------
-
+- sidecar with TCPdump (capture traffic)
+- image pruning / kept / verification'
+- prevent 2 pods from landing on same node in deployment
 
 
 Outline for the Week
 --------------------
 Monday:
- - Complete Labs 01 - 07
+ - Complete Labs:
+   - Lab 01
+   - Lab 02
+   - Lab 03
+   - Lab 04
+   - Lab 05
+   - Lab 06
+   - Lab 07
+   
 Tuesday:
- - Complete Labs 08 - 
+ - Complete Labs:
+   - Lab 08 - Debugging via kubectl port-forward
+   - Lab 09 - Imperative vs. Declarative Resource Creation
+   - Lab 10 - Performing Commands inside a Pod
+   - Lab 11 - Label (stop at step 32)
+   - Lab 12 - Annotation
+   - Lab 13 - ReplicaSet
+   - Lab 14 - Create a Cluster Docker Registry
+   - Lab 15 - Writing a Deployment Manifest
+   - Lab 16 - Rolling Updates and Rollbacks
