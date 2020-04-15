@@ -31,8 +31,9 @@
 Questions
 ---------
 - sidecar with TCPdump (capture traffic)
-- image pruning / kept / verification'
+- image pruning / kept / verification
 - prevent 2 pods from landing on same node in deployment
+- kubernetes CRE default image pull location (when referenced in manifest)
 
 
 Outline for the Week
@@ -52,7 +53,7 @@ Tuesday:
    - Lab 08 - Debugging via kubectl port-forward
    - Lab 09 - Imperative vs. Declarative Resource Creation
    - Lab 10 - Performing Commands inside a Pod
-   - Lab 11 - Label (stop at step 32)
+   - Lab 11 - Label
    - Lab 12 - Annotation
    - Lab 13 - ReplicaSet
    - Lab 14 - Create a Cluster Docker Registry
