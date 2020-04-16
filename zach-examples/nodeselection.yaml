@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginxon2019q2ornode01
+  labels:
+    env: nodeselection
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  nodeSelector:
+    built: 2019q2

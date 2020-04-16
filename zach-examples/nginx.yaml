@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: Pod  # this is the object to be created by k8s
+metadata:
+  name: nginx    # name of our pod
+  labels:
+     alta3: testapp
+     one: is-the-loneliest-number    # this is a label key:value
+     two: can-be-as-bad-as-on
+spec:
+  restartPolicy: "OnFailure"
+  maxRetries: "3"
+  containers:
+  - name: nginx  # name of a container
+    image: nginx:1.7.9     # name and version of image to use
+    ports:
+    - containerPort: 80

@@ -1,0 +1,35 @@
+---
+apiVersion: apps/v1 # MUST - see https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/ on what to use
+kind: Deployment ## MUST - https://kubernetes.io/docs/reference/kubectl/overview/#resource-types
+metadata:  # MUST - (AT LEAST! NAMES)
+  name: zombie  # MUST - PROVIDES A NAME
+  labels: # OPTIONAL - PROVIDES A LABEL TO THE DEPLOYMENT RESOURCE
+      app: nginx # OPTIONAL - PROVIDES A LABEL TO THE DEPLOYMENT RESOURCE
+spec:  # MUST - THIS IS WHAT YOU ARE BUILDING!!
+  selector: # MUST
+    matchLabels: # MUST
+      app: nginx # MUST MATCH spec.template.meatadata.labels
+      silo: 5g-research
+  replicas: 3 # tells deployment to run 2 pods matching the template
+  template: # MUST - description of what we want to build
+    metadata: # MUST - metadata.labels MUST match spec.selector.matchLabels
+      labels:
+        app: nginx
+        silo: 5g-research
+    spec: # This is the containers that will appear int he PODS
+      containers: # we only have 1 container (note the SINGLE hypen under this)
+      - image: docker.io/dockersec/tcpdump
+        imagePullPolicy: Always
+        name: tcpdumper
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      - name: nginx
+        image: nginx  # image:version we want to install (default hub.docker.com)
+        ports:              # ports that the CONTAINER will listen on
+        - containerPort: 80
+          ## EXAMPLE OF A SECOND CONTAINER
+          #        - name: mysql
+          #        image: mysql
+          #        ports:
+          #        - containerPort: 20922

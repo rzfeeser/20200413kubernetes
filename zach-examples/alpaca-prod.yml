@@ -1,0 +1,13 @@
+---
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment  # the type of resource to create 
+metadata:  # describes deployment itself
+  name: alpca-wool  # name applied to the deployment
+  labels:
+    customer: acme-inc
+    purpose: 5g-research
+spec:
+  selector:
+    matchLabels: 
+      app: alpaca
+  replicas: 3  # create this many replicated pods

@@ -1,0 +1,24 @@
+---
+kind: Pod   # create a Pod
+apiVersion: v1
+metadata:
+  name: client   # name of pod
+  labels:
+    run: client   # <-- run: client is a key/value applied to this machine
+spec:
+  containers:
+  - image: docker.io/dockersec/tcpdump
+    imagePullPolicy: Always
+    name: tcpdumper
+    resources: {}
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+  - name: busybox
+    image: busybox    # https://www.busybox.net/about.html
+    resources:
+      requests:
+        cpu: "300m"   # slice of core
+        memory: 128Mi   # Mb of RAM
+    args:
+    - sleep
+    - "10000"
