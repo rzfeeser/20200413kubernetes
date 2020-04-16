@@ -1,6 +1,15 @@
 ---
 - links: Kubernetes Essentials
 
+  - REST:
+    https://roy.gbiv.com/pubs/dissertation/rest_arch_style.htm
+  
+  - APIs defined:
+    https://tools.ietf.org/html/rfc3986
+
+  - What is a pod:
+    https://kubernetes.io/docs/concepts/workloads/pods/pod/
+
   - etcd:
     https://etcd.io/
   
@@ -19,4 +28,11 @@
   - Affinity & Anti-Affinity:
     https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
     
-  - 
+  - Launch pod on a specific node:
+    https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
+    
+  - Single Control-Plane Cluster with kubeadm
+    https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
+    
+  - Introduction to Helm
+    https://helm.sh/docs/intro/using_helm/

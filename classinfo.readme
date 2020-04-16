@@ -1,5 +1,6 @@
 ---
-- name: Zach Feeser
+- notice: please no screen recording, you are provided with a prerecorded video of the course. Thanks!
+  name: Zach Feeser
   email: rzfeeser@alta3
   class title: Kubernetes Essentials
   days: Monday through Friday
@@ -59,3 +60,38 @@ Tuesday:
    - Lab 14 - Create a Cluster Docker Registry
    - Lab 15 - Writing a Deployment Manifest
    - Lab 16 - Rolling Updates and Rollbacks
+   
+Wednesday:
+ - Complete Labs:
+   - Lab 17 - Horizontal Scaling with kubectl scale
+   - Lab 18 - LivenessProbes and ReadinessProbes
+   - Lab 19 - Setting an Application’s Resource Requirements
+   - Lab 20 - Kubernetes Jobs and CronJobs
+   - Lab 21 - Best Practices for Container Customization
+   - Lab 22 - Persistent Configuration with ConfigMaps
+   - Lab 23 - Create and Consume Secrets
+   - Lab 27 - Deploy a NetworkPolicy
+   - Lab 28 - CalicoCtl (skip step 10 **or ask me to help!** otherwise works well)
+   - Lab 29 - Exposing a Service
+   
+Thursday:
+ - Complete Labs:
+    - Lab 30 - Expose a Service Via Ingress
+    - Lab 31 - Multi-Container Pod Design
+    - Lab 32 - Setting up a single tier service mesh
+
+    - ** LECTURE on automating Kubernetes **
+
+    - Lab 34 - Using Helm to install a Chart (installing Helm v3.0)
+    - Lab 35 - A Completed Project (Building a Helm Chart)
+    - Lab 36 - Install Jenkins Using Helm and Run a Demo Job
+    
+    - ** LUNCH ** 1:30pm to 2:30pm eastern
+    
+    - ** LECTURE **
+    
+    - Lab 39 - Understanding Security Contexts for Cluster Access Control
+    - Lab 40 - Inspect Container Logging
+    - Lab 41 - Advanced Logging Techniques
+    - Lab 42 - Troubleshooting
+    - Lab 48 - Backing up your work with Git and GitHub
