@@ -1,0 +1,19 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: client02   # name of the Pod
+  namespace: test  # same namespace as client Pod
+  labels:
+    run: client02  # different label from other Pod
+spec:
+  containers:
+  - name: busybox
+    image: busybox   # https://www.busybox.net/about.html
+    resources:
+      requests:
+        cpu: "300m"
+        memory: 128Mi
+    args:
+    - sleep
+    - "10000"

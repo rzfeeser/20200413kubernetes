@@ -1,0 +1,23 @@
+---
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment  # the type of resource to create 
+metadata:  # describes deployment itself
+  name: testy  # name applied to the deployment
+  labels:
+    customer: acme-inc
+    purpose: 5g-research
+spec:
+  selector:
+    matchLabels: 
+      app: nginx
+  replicas: 3  # create this many replicated pods
+  template:
+    metadata:
+      labels:  # every pod will have the following labels
+        app: nginx  # pods are labeled app: nginx (match label matches on this)
+    spec:
+      containers:  # describes a list with only 1 container
+      - name: nginx  # name of the container will be 'nginx'
+        image: nginx:1.7.9  # image:version downloaded from hub.docker.com
+        ports:   # port(s) to expose
+        - containerPort: 80  # exposed port for this container
