@@ -31,10 +31,12 @@
 
 Questions
 ---------
-- sidecar with TCPdump (capture traffic)
+X sidecar with TCPdump (capture traffic)
 - image pruning / kept / verification
-- prevent 2 pods from landing on same node in deployment
+X prevent 2 pods from landing on same node in deployment
+  - affinity rules
 - kubernetes CRE default image pull location (when referenced in manifest)
+- Review adding "new user" and restricting user with RBAC
 
 
 Outline for the Week
@@ -95,3 +97,10 @@ Thursday:
     - Lab 41 - Advanced Logging Techniques
     - Lab 42 - Troubleshooting
     - Lab 48 - Backing up your work with Git and GitHub
+    
+Friday:
+ - Complete Labs:
+    - Lab 43 - Deploy a Kubernetes Cluster using Kubeadm
+    - Lab 44 - Monitoring Applications in Kubernetes
+    - Lab 45 - Resource-Based Autoscaling
+    - Lab 46 - (proof of concept) Create ServiceAccounts for use with the Kubernetes Dashboard

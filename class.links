@@ -1,5 +1,10 @@
 ---
 - links: Kubernetes Essentials
+  - Run KubeADM on your laptop:
+    https://alta3.com/blog/00fg5lqocxkpikimilx872gnbtt2yc
+
+  - Helm Hub:
+    https://hub.helm.sh/
 
   - REST:
     https://roy.gbiv.com/pubs/dissertation/rest_arch_style.htm
